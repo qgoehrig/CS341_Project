@@ -4,6 +4,5 @@ A private repo for managing the CS341 Project.
 
 # User Stories
 
-The strategy I think we should use for planning is through user stories.
-I added a few in the word file in this repo. Let me know what you think or add a
-few more.
+User stories can be located / edited on the following google docs page:
+https://docs.google.com/document/d/1fkQQkA3y9ETbZolUBPAKzE02WVtzQBe-8ucI9ppEIYg/edit?usp=sharing
