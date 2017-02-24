@@ -14,6 +14,7 @@ CREATE TABLE [dbo].[Patient] (
     [last]      VARCHAR (40) NOT NULL,
     [birthdate] DATE         NOT NULL,
     [address]   TEXT         NULL,
+    [phonenum]	VARCHAR (14) NULL,
     PRIMARY KEY CLUSTERED ([pid] ASC),
 	FOREIGN KEY ([pid]) REFERENCES [dbo].[aUser] ([uid])
 );
