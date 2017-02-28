@@ -1,31 +1,59 @@
-﻿
-<div class="login-box col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3
-col-md-4 col-md-offset-4">
-  <h2 class="text-center">Login</h2>
-  <form class="form-horizontal">
-    <div class="form-group  login-field">
-      <label class="control-label col-sm-3" for="email">Email:</label>
-      <div class="col-sm-9">
-        <input type="email" class="form-control" id="email" placeholder="Enter email">
-      </div>
-    </div>
-    <div class="form-group  login-field">
-      <label class="control-label col-sm-3" for="pwd">Password:</label>
-      <div class="col-sm-9">          
-        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-      </div>
-    </div>
-    <div class="form-group  login-field">        
-      <div class="col-sm-offset-2 col-sm-10">
-        <div class="checkbox">
-          <label><input type="checkbox"> Remember me</label>
+﻿<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3
+            col-md-4 col-md-offset-4  login-box">
+
+    <!--nav-block: the tabs -->
+    <div class=" tabs">
+        <div id="login-tab" class=" tab">
+            <h3 class="text-center  cs-white">Login</h2>
         </div>
-      </div>
+        <div id="register-tab" class=" tab">
+            <h3 class="text-center  cs-white">Sign Up</h2>
+        </div>
+    </div> <!--End nav-block-->
+    <!--Login Content-->
+    <div id="login-content" class=" tabcontent">
+        <form class="form-horizontal">
+            <div class=" login-field">
+                <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class=" login-field">
+                <input type="password" class="form-control" id="pwd" placeholder="Password">
+            </div>
+            <div class=" login-field">
+                <button type="submit" class="btn btn-primary btn-large
+                                     btn-block  cs-btn">
+                    Sign In
+                </button>
+            </div>
+        </form>
     </div>
-    <div class="form-group  login-field">        
-      <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-default">Submit</button>
-      </div>
+
+    <!--Register Content-->
+    <div id="register-content" class=" tabcontent" style="display:none">
+
+        <form class="form-horizontal">
+            <div class=" login-field">
+                <label for="name-reg">Full Name:</label>
+                <input type="name-reg" class="form-control" id="email">
+            </div>
+            <div class=" login-field">
+                <label for="email-register">Email:</label>
+                <input type="email-register" class="form-control" id="pwd">
+            </div>
+            <div class=" login-field">
+                <label for="password-register">Password:</label>
+                <input type="password-register" class="form-control" id="pwd">
+            </div>
+            <div class=" login-field">
+                <label for="retype-password-register">Confirm Password:</label>
+                <input type="retype-password-register" class="form-control" id="pwd">
+            </div>
+            <div class=" login-field">
+                <button type="submit" class="btn btn-primary btn-large
+                                     btn-block  cs-btn">
+                    Register
+                </button>
+            </div>
+        </form>
     </div>
-  </form>
 </div>

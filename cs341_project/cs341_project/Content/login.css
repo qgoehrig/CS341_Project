@@ -1,19 +1,66 @@
+body {
+  background-color: #50A6C2;
+}
+
 .home-logo {
   margin-right: 12px;
 }
 
 .login-box {
+  height: auto;
+  margin-top: 10vh;
+  background-color:white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  border: 2px solid #292b2c;
+  border: 2px solid white;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+  padding:  0px 20px 20px 20px;
+}
+
+.tabs {
+  margin: 16px 0 0 0;
+  width:100%;
+  display: inline-flex;
+}
+
+.tabs:hover {
+  cursor: pointer;
+}
+
+.tabs .active {
+  border-bottom: 2px solid #50A6C2;
+}
+
+.tab {
+  width:50%;
+  color: #333;
+  height: auto;
+  margin-bottom: 8px;
 }
 
 .login-field {
-  align-self: auto;
-  flex: auto;
+  margin: 12px auto;
+}
+
+//colors
+
+.cs-white {
+  color:white;
 }
 
 .cs-black {
   background-color: #292b2c
+}
+
+.cs-plain {
+  color: #b3b3b3;
+}
+
+.cs-btn {
+  margin: 32px 0 0 0;
+  background-color: #50A6C2;
+  border-color: #50A6C2;
 }

@@ -223,6 +223,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\Controllers.js" />
+    <Content Include="Scripts\login.js" />
     <Content Include="Scripts\Main.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

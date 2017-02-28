@@ -1,5 +1,23 @@
 ﻿cs341.controller('loginController', function ($scope) {
     $scope.message = 'Everyone come and see how good I look!';
+
+    //Initialize first tab
+    $('#login-tab').addClass('active');
+
+    //Tab clicking functionality
+    $('#login-tab').click(function () {
+        $('#login-tab').addClass('active');
+        $('#login-content').css("display", "block");
+        $('#register-tab').removeClass('active');
+        $('#register-content').css("display", "none");
+    });
+    $('#register-tab').click(function () {
+        $('#login-tab').removeClass('active');
+        $('#login-content').css("display", "none");
+        $('#register-tab').addClass('active');
+        $('#register-content').css("display", "block");
+    });
+
 })
 
 cs341.controller('homeController', function ($scope) {
@@ -7,6 +25,9 @@ cs341.controller('homeController', function ($scope) {
 })
 
 cs341.controller('calendarController', function ($scope) {
+
+    console.log("wee woo im a calendar");
+
     $.getScript('http://arshaw.com/js/fullcalendar-1.6.4/fullcalendar/fullcalendar.min.js', function () {
 
         var date = new Date();
