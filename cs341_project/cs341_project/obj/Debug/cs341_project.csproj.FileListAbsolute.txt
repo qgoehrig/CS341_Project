@@ -161,3 +161,4 @@ C:\Users\quentin\CS341_Project\cs341_project\cs341_project\bin\Microsoft.Owin.Se
 C:\Users\quentin\CS341_Project\cs341_project\cs341_project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\quentin\CS341_Project\cs341_project\cs341_project\obj\Debug\cs341_project.dll
 C:\Users\quentin\CS341_Project\cs341_project\cs341_project\obj\Debug\cs341_project.pdb
+C:\Users\quentin\CS341_Project\cs341_project\cs341_project\obj\Debug\cs341_project.csprojResolveAssemblyReference.cache
